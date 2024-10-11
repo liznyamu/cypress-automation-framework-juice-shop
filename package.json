@@ -1,0 +1,28 @@
+{
+  "name": "cypress-automation-framework-juice-shop",
+  "version": "1.0.0",
+  "description": "Cypress Automation Framework (AUT OWASP Juice Shop)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liznyamu/cypress-automation-framework-juice-shop.git"
+  },
+  "keywords": [
+    "cypress",
+    "pom",
+    "api-login"
+  ],
+  "author": "Liz Nyamu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liznyamu/cypress-automation-framework-juice-shop/issues"
+  },
+  "homepage": "https://github.com/liznyamu/cypress-automation-framework-juice-shop#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "cypress": "^13.15.0"
+  }
+}
