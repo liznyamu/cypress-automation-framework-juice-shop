@@ -1,0 +1,29 @@
+{
+    "status": "success",
+    "data": [
+        {
+            "ProductId": 1,
+            "id": 1,
+            "quantity": 53,
+            "limitPerUser": 5,
+            "createdAt": "2024-10-11T08:15:31.765Z",
+            "updatedAt": "2024-10-11T08:15:31.765Z"
+        },
+        {
+            "ProductId": 2,
+            "id": 2,
+            "quantity": 76,
+            "limitPerUser": null,
+            "createdAt": "2024-10-11T08:15:31.765Z",
+            "updatedAt": "2024-10-11T08:15:31.765Z"
+        },
+        {
+            "ProductId": 11,
+            "id": 11,
+            "quantity": 98,
+            "limitPerUser": null,
+            "createdAt": "2024-10-11T08:15:31.765Z",
+            "updatedAt": "2024-10-11T08:15:31.765Z"
+        }
+    ]
+}

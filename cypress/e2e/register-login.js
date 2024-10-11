@@ -1,13 +1,14 @@
 /// <reference types="cypress" />
 import { en_AU, faker } from '@faker-js/faker';
 
-xdescribe('Register and Login Tests', () => {
+describe('Register and Login Tests - e2e tests', () => {
     let email = faker.internet.email();
     let password = faker.internet.password();
 
     it('Validate user can Register an new account', () => {
-        cy.visit('http://localhost:3000/#/');
+        cy.visit('/');
 
+        // close Welcome to OWASP popup
         cy.get('.cdk-overlay-backdrop').click(-50, -50, { force: true });
 
         cy.get('#navbarAccount').click();
@@ -45,7 +46,7 @@ xdescribe('Register and Login Tests', () => {
 
     it('Validate user can sucessfully Login', () => {
         // TODO use api requests to register a new user 
-        cy.visit('http://localhost:3000/#/');
+        cy.visit('/');
 
         cy.get('.cdk-overlay-backdrop').click(-50, -50, { force: true });
 
