@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import { en_AU, faker } from '@faker-js/faker';
+import { faker } from '@faker-js/faker';
 
 describe('Register and Login Tests - e2e tests', () => {
     let email = faker.internet.email();
