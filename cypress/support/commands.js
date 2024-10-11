@@ -9,3 +9,7 @@ Cypress.Commands.add('login', () => {
         cy.get('.cdk-overlay-backdrop').click(-50, -50, { force: true });
     })
 })
+
+Cypress.Commands.add('registerUser', () => {
+    registerUserApi()
+})
