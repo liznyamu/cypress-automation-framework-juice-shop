@@ -1,1 +1,1 @@
-export * from './user-requests'
+export * from './user.requests'
